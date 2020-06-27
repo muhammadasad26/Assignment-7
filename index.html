@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">Calculator</h1>
+    <div class="main">
+        <div class="resultRow">
+            <input type="text" id="result" class="result">
+        </div>
+        <div>
+            <div>
+                <button class="btnClear" onclick="clearResult()">C</button>
+                <button class="btnRemove" onclick="removeResult()">Del</button>
+                <button class="btnOpr" onclick="number('(')">(</button>
+                <button class="btnOpr" onclick="number(')')">)</button>
+            </div>
+            <div>
+                <button class="btnOpr" onclick="square()">x<sup>2</sup></button>
+                <button class="btnOpr" onclick="squareRoot()">Sqrt</button>
+                <button class="btnOpr" onclick="factorial()">n!</button>
+                <button class="btnOpr" onclick="number('%')">%</button>
+            </div>
+            <div>
+                <button class="btnNum" onclick="number(7)">7</button>
+                <button class="btnNum" onclick="number(8)">8</button>
+                <button class="btnNum" onclick="number(9)">9</button>
+                <button class="btnNum" onclick="number('/')">/</button>
+            </div>
+            <div>
+                <button class="btnNum" onclick="number(4)">4</button>
+                <button class="btnNum" onclick="number(5)">5</button>
+                <button class="btnNum" onclick="number(6)">6</button>
+                <button class="btnNum" onclick="number('*')">x</button>
+            </div>
+            <div>
+                <button class="btnNum" onclick="number(1)">1</button>
+                <button class="btnNum" onclick="number(2)">2</button>
+                <button class="btnNum" onclick="number(3)">3</button>
+                <button class="btnNum" onclick="number('-')">-</button>
+            </div>
+            <div>
+                <button class="btnNum" onclick="number(0)">0</button>
+                <button class="btnNum" onclick="number('.')">.</button>
+                <button class="btnNum" onclick="number('+')">+</button>
+                <button class="btnAnswer" onclick="answer()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

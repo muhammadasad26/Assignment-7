@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #c0e9fa;
+}
+.heading{
+    text-align: center;
+    font-size: 5.2em;
+    color: #3d5c5c;
+    text-shadow: 2px 3px 7px rgba(51, 77, 77, 0.8);
+    padding: 10px;
+}
+.main{
+    margin: 5px auto 0px;
+    width: 478px;
+    border: 2px solid gray;
+    background-color: #d1e0e0;
+    padding: 10px 5px;
+    border-radius: 10px 10px 20px 20px;
+    border: 2px solid #a3c2c2;
+    box-shadow: 3px 3px 7px 6px #5f5f5f;
+}
+.btnNum , .btnOpr , .btnClear , .btnRemove ,.btnAnswer{
+    width: 110px;
+    height: 50px;
+    margin: 6px 3px;
+    font-size: 28px;
+    font-weight: 600;
+    border-radius: 15px 15px 30px 30px;
+    background-color: #f0f5f5;
+    border: 3px solid #85adad;
+    box-shadow: 1px 1px 3px #006666;
+}
+.btnAnswer{
+    background-color: rgb(65, 175, 65);
+    border: 3px solid rgb(36, 151, 36);
+    box-shadow: 1px 1px 3px rgb(14, 119, 14);
+} 
+.btnClear , .btnRemove{
+    background-color: rgb(246, 140, 19);
+    border: 3px solid rgb(230, 124, 4);
+    box-shadow: 1px 1px 3px rgb(172, 92, 1);
+}
+.btnOpr{
+    background-color: rgb(7, 158, 158);
+    border: 3px solid rgb(0, 129, 129);
+    box-shadow: 1px 1px 3px rgb(0, 102, 102);
+}
+.btnNum:hover , .btnOpr:hover , .btnClear:hover ,.btnRemove:hover , .btnAnswer:hover{
+    cursor: pointer;
+}
+sup{
+    font-size: 16px;
+}
+.result{
+    width: 468px;
+    height: 60px;
+    font-size: 32px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 3px solid #527a7a;
+    background-color: rgb(251, 255, 255);
+    text-align: right;
+}
+.result:focus{
+    border: #006666 solid 3px;
+    outline: none;
+    box-shadow: 0 0 3px 1px #006666;
+}
+.resultRow{
+    text-align: center;
+}
+.btnNum:focus , .btnOpr:focus , .btnClear:focus, .btnRemove:focus ,.btnAnswer:focus{
+    outline: none;
+}
+.btnNum:active , .btnOpr:active , .btnRemove:active , .btnClear:active ,.btnAnswer:active{
+    background-color: rgba(224, 211, 28, 0.89);
+}
+
